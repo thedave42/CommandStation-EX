@@ -58,24 +58,29 @@ ROUTE(6, "Warehouse Track 2")
   THROW(5)
 DONE 
 
-ROUTE(7, "Yard Siding")
+ROUTE(7, "Yard Closed")
+  CLOSE(10)
+  CLOSE(11)
+DONE
+
+ROUTE(8, "Yard Siding")
   CLOSE(9)
   THROW(10)
   THROW(11)
   THROW(12)
 DONE 
 
-ROUTE(8, "Staging Track 1")
+ROUTE(9, "Staging Track 1")
   CLOSE(9)
   CLOSE(12)
 DONE 
 
-ROUTE(9, "Staging Track 2")
+ROUTE(10, "Staging Track 2")
   THROW(8)
   THROW(9)
 DONE 
 
-ROUTE(10, "Staging Track 3")
+ROUTE(11, "Staging Track 3")
   CLOSE(8)
   THROW(9)
 DONE 
