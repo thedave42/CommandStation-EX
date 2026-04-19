@@ -70,12 +70,12 @@ ROUTE(8, "Staging Track 1")
   CLOSE(12)
 DONE 
 
-ROUTE(8, "Staging Track 2")
+ROUTE(9, "Staging Track 2")
   THROW(8)
   THROW(9)
 DONE 
 
-ROUTE(8, "Staging Track 3")
+ROUTE(10, "Staging Track 3")
   CLOSE(8)
   THROW(9)
 DONE 
