@@ -19,9 +19,6 @@ PIN_TURNOUT(10, 809, "Yard Entry")
 PIN_TURNOUT(11, 810, "Yard Exit")
 PIN_TURNOUT(12, 811, "Staging 1")
 
-// --- Roster ---
-ROSTER(152, "EMD NW2", "Front & Rear Light/Bell/*Horn/Coupler Sounds/Dynamic Brake/*Rev Engine Up/*Rev Engine Down/Ditch Lights/Volume Mute/Startup & Shutdown/Raidiator Cooling Fan/Air Filling & Release/Brake Set & Release/Grade Crossing Horn/Passenger Annocements/Freight Announcements/Maintenance Sounds/Radio Sounds/City Background Sounds/Farm Background Sounds/Industrial Sounds/Lumber Yard Sounds/Switch to second horn/Track Sounds/Aux Light Control/*Long Horn/Play Macro/Record Macro Start & Stop/Brake Squeal")
-
 // --- Routes ---
 ROUTE(1, "Industry Closed")
   CLOSE(1)
@@ -84,6 +81,9 @@ ROUTE(11, "Staging Track 3")
   CLOSE(8)
   THROW(9)
 DONE 
+
+// --- Roster ---
+ROSTER(152, "EMD NW2", "Front & Rear Light/Bell/*Horn/Coupler Sounds/Dynamic Brake/*Rev Engine Up/*Rev Engine Down/Ditch Lights/Volume Mute/Startup & Shutdown/Raidiator Cooling Fan/Air Filling & Release/Brake Set & Release/Grade Crossing Horn/Passenger Annocements/Freight Announcements/Maintenance Sounds/Radio Sounds/City Background Sounds/Farm Background Sounds/Industrial Sounds/Lumber Yard Sounds/Switch to second horn/Track Sounds/Aux Light Control/*Long Horn/Play Macro/Record Macro Start & Stop/Brake Squeal")
 
 // --- Startup sequence ---
 AUTOSTART
