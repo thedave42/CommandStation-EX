@@ -22,6 +22,64 @@ PIN_TURNOUT(12, 811, "Staging 1")
 // --- Roster ---
 ROSTER(152, "EMD NW2", "Front & Rear Light/Bell/*Horn/Coupler Sounds/Dynamic Brake/*Rev Engine Up/*Rev Engine Down/Ditch Lights/Volume Mute/Startup & Shutdown/Raidiator Cooling Fan/Air Filling & Release/Brake Set & Release/Grade Crossing Horn/Passenger Annocements/Freight Announcements/Maintenance Sounds/Radio Sounds/City Background Sounds/Farm Background Sounds/Industrial Sounds/Lumber Yard Sounds/Switch to second horn/Track Sounds/Aux Light Control/*Long Horn/Play Macro/Record Macro Start & Stop/Brake Squeal")
 
+// --- Routes ---
+ROUTE(1, "Industry Closed")
+  CLOSE(1)
+  CLOSE(2)
+DONE
+
+ROUTE(2, "Industry Siding")
+  THROW(1)
+  THROW(2)
+  THROW(3)
+  THROW(4)
+DONE
+
+ROUTE(3, "Industry Runaround")
+  THROW(1)
+  THROW(2)
+  CLOSE(3)
+  CLOSE(4)
+  THROW(6)
+  THROW(7)
+DONE
+
+ROUTE(4, "Dry Goods Access")
+  CLOSE(7)
+DONE
+
+ROUTE(5, "Warehouse Track 1")
+  CLOSE(6)
+  CLOSE(5)
+DONE 
+
+ROUTE(6, "Warehouse Track 2")
+  CLOSE(6)
+  THROW(5)
+DONE 
+
+ROUTE(7, "Yard Siding")
+  CLOSE(9)
+  THROW(10)
+  THROW(11)
+  THROW(12)
+DONE 
+
+ROUTE(8, "Staging Track 1")
+  CLOSE(9)
+  CLOSE(12)
+DONE 
+
+ROUTE(8, "Staging Track 2")
+  THROW(8)
+  THROW(9)
+DONE 
+
+ROUTE(8, "Staging Track 3")
+  CLOSE(8)
+  THROW(9)
+DONE 
+
 // --- Startup sequence ---
 AUTOSTART
   SET_TRACK(A, MAIN)
