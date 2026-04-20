@@ -9,5 +9,6 @@
 
 void halSetup() {
   // Switching Controller: 12 turnout VPINs starting at 800, I2C address 0x65
-  SwitchingController::create(800, 12, 0x65);
+  // SwitchingController::create(800, 12, 0x65);
+  SwitchingController::create(800, 12, I2CAddress(I2CMux_0, SubBus_0, 0x65));
 }
