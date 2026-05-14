@@ -84,6 +84,8 @@ DONE
 
 // --- Roster ---
 ROSTER(152, "EMD NW2", "Front & Rear Light/Bell/*Horn/Coupler Sounds/Dynamic Brake/*Rev Engine Up/*Rev Engine Down/Ditch Lights/Volume Mute/Startup & Shutdown/Raidiator Cooling Fan/Air Filling & Release/Brake Set & Release/Grade Crossing Horn/Passenger Annocements/Freight Announcements/Maintenance Sounds/Radio Sounds/City Background Sounds/Farm Background Sounds/Industrial Sounds/Lumber Yard Sounds/Switch to second horn/Track Sounds/Aux Light Control/*Long Horn/Play Macro/Record Macro Start & Stop/Brake Squeal")
+ROSTER(444, "EMD F7A", "Headlight/Bell/*Horn/Air Release/Coupling 1/Brake Release-Squeal/Dyn Brake/Airhose fire uncoupling/*Notch Down (3xShutdown)/*Notch Up (Fan)/Wheel Clack/Traction compressor/Diesel type/*Vol Down/*Vol Up/Air compressor/Flange squeal/Air release/*Change bell/*Change horn/*Assoc. loco sound/*Bell volume/*Horn volume/*Diesel volume/Safty valve pop/Air release/Flange noise/Sand drop/Air release")
+ROSTER(445, "EMD F7B", "Headlight/Bell/*Horn/Air Release/Coupling 1/Brake Release-Squeal/Dyn Brake/Airhose fire uncoupling/*Notch Down (3xShutdown)/*Notch Up (Fan)/Wheel Clack/Traction compressor/Diesel type/*Vol Down/*Vol Up/Air compressor/Flange squeal/Air release/*Change bell/*Change horn/*Assoc. loco sound/*Bell volume/*Horn volume/*Diesel volume/Safty valve pop/Air release/Flange noise/Sand drop/Air release")
 
 // --- Startup sequence ---
 AUTOSTART
